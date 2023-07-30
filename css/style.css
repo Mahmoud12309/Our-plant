@@ -17,6 +17,20 @@
 .container{
     padding: 20px 35px;
 }
+.str-star{
+    padding: 10px;
+    background: #35c19a;
+    border-radius: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 20px rgb(0 0 0 / 10%);
+}
+.heading{
+    text-align: center;
+    padding: 30px 10px;
+    color: var(--main-color);
+    font-size: 50px;
+}
 @media (max-width: 630px){
 .container{
     padding:20px 3px;
@@ -206,14 +220,6 @@ width: 100%;
     letter-spacing: 0.7px;
     margin: 10px 0;
 }
-.home .text-left a{  
-    padding: 10px;
-    background: #35c19a;
-    border-radius: 10px;
-    color: #fff;
-    letter-spacing: 1px;
-    box-shadow: 2px 2px 20px rgb(0 0 0 / 10%);
-}
 .home img{
     width: 49%;
 }
@@ -264,3 +270,41 @@ padding: 80px 4px 0 16px;
     }
 }
 /* end home */
+/* strat About */
+.about{
+width: 100%;
+}
+.about .container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 35px 0 35px;
+    display: flex;
+    align-items: center;
+}
+.about .container img{
+width: 40%;
+}
+.about .container .text-a {
+    text-align: right;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.about .container .text-a .hed-a {
+    color: var(--sc-color);
+    font-size: 30px;
+    background: #f5fbfb;
+    padding: 3px 10px;
+}
+.about .container .text-a p {
+    color: #777;
+    width: 71%;
+    line-height: 2;
+    font-size: 20px;
+}
+.about .container .text-a .btn-b{
+    margin-top: 10px;
+}
+/* end About */ 
