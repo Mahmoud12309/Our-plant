@@ -283,10 +283,10 @@ width: 100%;
     display: flex;
     align-items: center;
 }
-.about .container img{
+.about .container .content img{
 width: 40%;
 }
-.about .container .text-a {
+.about .container .content .text-a {
     text-align: right;
     height: 100%;
     display: flex;
@@ -294,52 +294,52 @@ width: 40%;
     justify-content: center;
     flex-direction: column;
 }
-.about .container .text-a .hed-a {
+.about .container .content .text-a .hed-a {
     color: var(--sc-color);
     font-size: 30px;
     background: #f5fbfb;
     padding: 3px 10px;
 }
-.about .container .text-a p {
-    color: #777;
+.about .container .content .text-a p {
+    color: rgb(187, 172, 172);
     width: 71%;
     line-height: 2;
     font-size: 20px;
     letter-spacing: 1px;
 }
-.about .container .text-a .btn-b{
+.about .container .content .text-a .btn-b{
     margin-top: 10px;
 }
 @media (max-width: 802px){
-    .about .container{
+    .about .container .content{
         flex-direction: column;
         text-align: center;
     }
-    .about .container .text-a {
+    .about .container .content .text-a {
         width: 100%;
         align-items: center;
     }
-   .about .container .text-a .hed-a{
+   .about .container .content .text-a .hed-a{
        margin-top: 10px;
    }
-    .about .container .text-a p{
+    .about .container .content .text-a p{
         text-align: center;
         width: 100%;
     }
 }
 @media (max-width: 426px){
-    .about .container .text-a p{
+    .about .container .content .text-a p{
         font-size: 18px;
     }
 }
 @media (max-width: 388px){
-    .about .container .text-a p{
+    .about .container .content .text-a p{
       font-size: 15px;
        letter-spacing: .7px;
     }
 }
 @media (max-width: 346px){
-    .about .container .text-a .hed-a{
+    .about .container .content .text-a .hed-a{
        font-size: 28px;
    }
 }
