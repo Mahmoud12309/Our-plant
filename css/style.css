@@ -399,4 +399,117 @@ width: 40%;
 .services .container .card:last-child p{
     line-height: 1.6;
 }
+@media (max-width: 1326px){
+  .services .container .card {
+    width: 412px;
+  }
+   .services .container .card h2 {
+    font-size: 20px;
+   }
+  .services .container .card p{
+    font-size: 19px;
+  }   
+}
+@media (max-width: 1288px){
+  .services .container .card {
+    width: 405px;
+  }  
+}
+@media (max-width: 1260px){
+  .services .container .card {
+    width: 400px;
+  }  
+}
+@media (max-width: 1245px){
+  .services .container .card {
+    width: 390px;
+  }  
+}
+@media (max-width: 1227px){
+  .services .container .card {
+    width: 350px;
+  }  
+  .services .container .card h2 {
+    font-size: 17px;
+    font-weight: 800;
+  }
+  .services .container .card p {
+    font-size: 17.5px;
+ }
+}
+@media (max-width: 1098px){
+  .services .container .card {
+    width: 348px;
+  }  
+}
+@media (max-width: 1078px){
+ .services .container .card {
+    width: 485px;
+ } 
+ .services .container .card h2 {
+    font-size: 20px;
+ }
+ .services .container .card p {
+    font-size: 20px;
+ }
+}
+@media (max-width: 996px){
+ .services .container .card {
+    width: 440px;
+ } 
+}
+@media (max-width: 922px){
+ .services .container .card{
+     width: 100%;
+ } 
+  .services .container .card h2{
+     font-size:19px;
+ } 
+ .services .container .card p {
+    font-size: 19px;
+}
+}
+@media (max-width: 882px){ 
+ .services .container .card p {
+    font-size: 18px;
+ }  
+}
+@media (max-width: 862px){ 
+ .services .container .card p {
+    font-size: 17px;
+ }  
+}
+@media (max-width: 756px){ 
+ .services .container .card p {
+    font-size: 16px;
+ }  
+}
+@media (max-width: 742px){ 
+.services .container .card p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+}
+@media (max-width: 472px){ 
+ .heading {
+    padding: 161px 10px 0 10px;
+ }
+}
+@media (max-width: 460px){ 
+.services .container .card p {
+    font-size: 19px;
+
+}
+}
+@media (max-width: 443px){ 
+.services .container .card p {
+    font-size: 18px;
+}
+}
+@media (max-width: 403px){ 
+.services .container .card p {
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+}
 /* end services */
