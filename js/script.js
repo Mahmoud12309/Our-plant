@@ -9,9 +9,8 @@ bar.addEventListener('click',() => {
 
 input_i.addEventListener('click',() => {
   if(input_search.value !== ""){
-    if (input_search.value === "home" || input_search.value === "about" || input_search.value === "services" || input_search.value === "blog"){
-      window.location.href =`#${input_search.value}`;
-    }
+  let inpl = input_search.value.toLocaleLowerCase();
+  window.location.href = `#${inpl}`;
   }else{
 
   }
