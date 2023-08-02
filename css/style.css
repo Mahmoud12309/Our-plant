@@ -16,12 +16,15 @@
     scroll-behavior: smooth;
 }
 body::-webkit-scrollbar{
-	width:10px;
+    width:10px;
 }
 
 body::-webkit-scrollbar-thumb{
-	border-radius:10px;
+    border-radius:10px;
 	background-color:var(--main-color);
+}
+img{
+    width: 100%;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -359,10 +362,10 @@ width: 40%;
 /* start services */
 .services{
     width: 100%;
+    background:#3fddb814;
 }
 .services .container{
     width: 100%;
-    height: 70vh;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(325px,1fr));
     gap: 25px;
@@ -513,3 +516,99 @@ width: 40%;
 }
 }
 /* end services */
+/* start blog */
+.blog{
+    width: 100%;
+}
+.blog .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(307px,1fr));
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.blog .container .card{
+    background:#ebebeb61;
+}
+.blog .container .card img{
+    width:100%;
+    height: 276px;
+}
+.blog .container .card .content-text{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 10px;
+}
+.blog .container .card .content-text .head-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog .container .card .content-text .head-c img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.blog .container .card .content-text .head-c p{
+    cursor: pointer;
+    transform: .3s;
+}
+.blog .container .card .content-text .head-c p:hover{
+    color: var(--main-color);
+}
+.blog .container .content-text .con{
+    display: flex;
+    height: auto;
+}
+.blog .container .content-text .con p{
+    line-height: 2;
+    margin-top: 8px;
+}
+.blog .container .content-text .con a{
+    margin-top:191px;
+}
+/* start blog */
+/* start subscribe */
+.subscribe {
+    width: 100%;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.subscribe .container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe .container form {
+    padding: 5px;
+    background: var(--sc-color);
+    border-radius: 23px;
+}
+.subscribe .container form input {
+    width: 260px;
+    padding: 10px 18px 10px 10px;
+    outline: none;
+    border: 0;
+    border-radius: 16px;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    color: var(--main-color);
+    border-right: 1px solid rgba(0,0,0,0.4);
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+.subscribe .container form a{
+    border-radius: 21px;
+}
+@media (max-width: 384px){
+.subscribe .container form input {
+    width: 236px;
+    letter-spacing:0;
+}
+}
+/* end subscribe */
