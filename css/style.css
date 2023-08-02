@@ -69,7 +69,7 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: space-between;
 }
-.header .logo{
+ .logo{
     font-size: 30px;
     color: #26cba4;
     cursor: pointer;
@@ -612,3 +612,66 @@ width: 40%;
 }
 }
 /* end subscribe */
+/* start footer */
+
+.footter .container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.footter .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    padding: 17px 0 0 0;
+}
+.footter .logo{
+	margin-bottom:30px;
+}
+
+.footter h4{
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.footter p{
+	font-size: 13px;
+	padding-bottom: 20px;
+	margin: 0 0 8px 0;
+}
+
+.footter p{
+	font-size: 13px;
+	padding-bottom: 20px;
+	margin: 0 0 8px 0;
+}
+
+.footter a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #088178;
+    margin-bottom: 32px;
+}
+.footter .follow{
+ margin-top: 10px 
+}
+.footter .follow i{
+	color: #465b52;
+	padding-right: 4px;
+	cursor: pointer;
+}
+.footter .follow i:hover{
+color: #088178;
+}
+
+.footter a:hover{
+	color: #333;
+}
+.footter .copyright{
+width: 100%;
+text-align: center;
+margin-right: 40px;
+}
+/* end footer */
